@@ -19,6 +19,8 @@
           <div class="col-sm-8">
             <%= f.text_field :title, class: "form-control", placeholder: "Title of article", autofocus: true %>
           </div>
+      </div>
+      <div class="form-group">
           
           <div class="control-label col-sm-2">
             <%= f.label :description %>
@@ -29,7 +31,7 @@
           </div>
     </div>
     <div class="form-group">
-      <div class="col-sm-offset-offset-2 col-sm-10">
+      <div class="col-sm-offset-2 col-sm-10">
           <%= f.submit class: "btn btn-primary btn-lg" %>
       </div>
     </div>
@@ -37,7 +39,7 @@
     <% end %>
     
     <div class="col-xs-4 col-xs-offset-4">
-      [ <%= link_to "Cancel reques and return to article listing", articles_path %> ]
+      [ <%= link_to "Cancel request and return to article listing", articles_path %> ]
     </div>    
   </div>
 </div>
